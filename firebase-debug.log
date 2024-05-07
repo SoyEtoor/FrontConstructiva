@@ -1,0 +1,148 @@
+[debug] [2024-04-27T22:11:54.868Z] ----------------------------------------------------------------------
+[debug] [2024-04-27T22:11:54.871Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-27T22:11:54.872Z] CLI Version:   13.7.5
+[debug] [2024-04-27T22:11:54.872Z] Platform:      win32
+[debug] [2024-04-27T22:11:54.872Z] Node Version:  v20.11.1
+[debug] [2024-04-27T22:11:54.872Z] Time:          Sat Apr 27 2024 16:11:54 GMT-0600 (hora estándar central)
+[debug] [2024-04-27T22:11:54.872Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-27T22:11:54.880Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-27T22:11:54.881Z] > authorizing via signed-in user (jorge.luis.33882@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jorge\paradigmas\frontconstructiva
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-27T22:12:02.398Z] > refreshing access token with scopes: []
+[debug] [2024-04-27T22:12:02.402Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-27T22:12:02.402Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-27T22:12:02.790Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-27T22:12:02.790Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-27T22:12:02.802Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-27T22:12:03.288Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-27T22:12:03.288Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project deploycontructiva (deploycontructiva) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-27T22:12:05.942Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/deploycontructiva [none]
+[debug] [2024-04-27T22:12:06.141Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/deploycontructiva 200
+[debug] [2024-04-27T22:12:06.142Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/deploycontructiva {"projectId":"deploycontructiva","projectNumber":"222122745326","displayName":"deploycontructiva","name":"projects/deploycontructiva","resources":{"hostingSite":"deploycontructiva"},"state":"ACTIVE","etag":"1_6d76cdb1-7e38-4329-9fa0-7ef8b7b61d44"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-04-27T22:12:28.519Z] Error: Path contains invalid characters: C:\Users\jorge\paradigmas\frontconstructiva\*
+    at checkPath (C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\utils.js:16:21)
+    at module.exports.makeDirSync (C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\make-dir.js:21:3)
+    at Object.createFileSync (C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:59:45)
+    at Config.writeProjectFile (C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:154:12)
+    at C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:178:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:173:13)
+    at async init (C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:37:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-04-27T22:12:35.522Z] ----------------------------------------------------------------------
+[debug] [2024-04-27T22:12:35.525Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jorge\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-27T22:12:35.525Z] CLI Version:   13.7.5
+[debug] [2024-04-27T22:12:35.526Z] Platform:      win32
+[debug] [2024-04-27T22:12:35.526Z] Node Version:  v20.11.1
+[debug] [2024-04-27T22:12:35.526Z] Time:          Sat Apr 27 2024 16:12:35 GMT-0600 (hora estándar central)
+[debug] [2024-04-27T22:12:35.526Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-27T22:12:35.534Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-27T22:12:35.535Z] > authorizing via signed-in user (jorge.luis.33882@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jorge\paradigmas\frontconstructiva
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-04-27T22:13:05.704Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-04-27T22:13:05.705Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"frontconstructiva","name":"frontconstructiva"}
+[debug] [2024-04-27T22:13:06.165Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-04-27T22:13:06.166Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8661471268646301533"}
+[debug] [2024-04-27T22:13:06.168Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 [none]
+[debug] [2024-04-27T22:13:06.673Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 200
+[debug] [2024-04-27T22:13:06.674Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 {"name":"operations/cp.8661471268646301533"}
+[debug] [2024-04-27T22:13:07.185Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-27T22:13:07.186Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 [none]
+[debug] [2024-04-27T22:13:07.593Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 200
+[debug] [2024-04-27T22:13:07.593Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 {"name":"operations/cp.8661471268646301533"}
+[debug] [2024-04-27T22:13:08.609Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-27T22:13:08.610Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 [none]
+[debug] [2024-04-27T22:13:09.027Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 200
+[debug] [2024-04-27T22:13:09.027Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 {"name":"operations/cp.8661471268646301533","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-04-27T22:13:11.040Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-27T22:13:11.041Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 [none]
+[debug] [2024-04-27T22:13:11.484Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 200
+[debug] [2024-04-27T22:13:11.484Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8661471268646301533 {"name":"operations/cp.8661471268646301533","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"324179372401","projectId":"frontconstructiva","lifecycleState":"ACTIVE","name":"frontconstructiva","createTime":"2024-04-27T22:13:08.304543Z"}}
+[debug] [2024-04-27T22:13:11.486Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/frontconstructiva:addFirebase [none]
+[debug] [2024-04-27T22:13:13.224Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/frontconstructiva:addFirebase 200
+[debug] [2024-04-27T22:13:13.225Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/frontconstructiva:addFirebase {"name":"operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3"}
+[debug] [2024-04-27T22:13:13.225Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 [none]
+[debug] [2024-04-27T22:13:16.491Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 200
+[debug] [2024-04-27T22:13:16.491Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 {"name":"operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3"}
+[debug] [2024-04-27T22:13:17.007Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-04-27T22:13:17.007Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 [none]
+[debug] [2024-04-27T22:13:17.320Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 200
+[debug] [2024-04-27T22:13:17.320Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 {"name":"operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3"}
+[debug] [2024-04-27T22:13:18.324Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-04-27T22:13:18.325Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 [none]
+[debug] [2024-04-27T22:13:18.480Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 200
+[debug] [2024-04-27T22:13:18.480Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 {"name":"operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3"}
+[debug] [2024-04-27T22:13:20.492Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-04-27T22:13:20.492Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 [none]
+[debug] [2024-04-27T22:13:20.802Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 200
+[debug] [2024-04-27T22:13:20.802Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 {"name":"operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3"}
+[debug] [2024-04-27T22:13:24.808Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2024-04-27T22:13:24.809Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 [none]
+[debug] [2024-04-27T22:13:25.103Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 200
+[debug] [2024-04-27T22:13:25.103Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3 {"name":"operations/workflows/ZDFiMTNjZjMtN2NmNi00Yjk5LWE2NWUtODBkZWZjMDZkNmU3","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"frontconstructiva","projectNumber":"324179372401","displayName":"frontconstructiva","name":"projects/frontconstructiva","resources":{"hostingSite":"frontconstructiva"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: frontconstructiva
+[info]    - Project Name: frontconstructiva
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/frontconstructiva/overview
+[info] i  Using project frontconstructiva (frontconstructiva) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-27T22:13:25.115Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/frontconstructiva [none]
+[debug] [2024-04-27T22:13:25.614Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/frontconstructiva 200
+[debug] [2024-04-27T22:13:25.614Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/frontconstructiva {"projectId":"frontconstructiva","projectNumber":"324179372401","displayName":"frontconstructiva","name":"projects/frontconstructiva","resources":{"hostingSite":"frontconstructiva"},"state":"ACTIVE","etag":"1_92935794-7ec6-484e-b48f-8a430d3c097a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
